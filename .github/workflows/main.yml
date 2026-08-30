@@ -4,9 +4,9 @@ jobs:
   job-install-php: 
     run-on: ubuntu-latest
     steps:
-     -name: update apt repo
+     - name: Update apt repo
       run: sudo apt update
-     -name: install php 
+     - name: install php 
       run: sudo apt install php -y
-     -name: php verion
+     - name: php verion
       run: php --version
