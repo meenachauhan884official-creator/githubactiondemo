@@ -3,7 +3,7 @@ on: workflow_dispatch
 jobs: 
   job-install-php: 
     run-on: ubuntu-latest
-    steps:
+    steps: 
      - name: Update apt repo
       run: sudo apt update
      - name: install php 
